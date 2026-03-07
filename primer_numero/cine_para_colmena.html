@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../paginaprincipalestilo.css">
+    <title>Revista FOSFORO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+     <header>  
+        <div class="container">
+            <figure class="nav_figure">
+            <a href="../index.html" class="logo">
+                <img src="../Imagenes/Logo.png" alt="Revista FOSFORO" class="logo-img">
+            </a>
+            </figure>
+
+            <label class="nav_toggel">
+                <input type="checkbox" id="menu-input" class="nav_input">
+            </label>
+            <div class="iniciosesion">
+                <a href="{{ url_for('login') }}">
+                    <img src="../Imagenes/Sesion.svg" alt="Descripción de la imagen" width="130" class="iniciose">
+                </a>
+            </div>  
+        </div>
+        <ul class="nav_list">
+            <li class="nav_item">
+                <a href="../index.html" class="nav_link2">Inicio</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link1 dropdown-toggle">
+                    Acerca de la revista <span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="../Enfoque.html" class="dropdown-link">Convocatoria permanente</a></li>
+                    <li><a href="../Seccionesdelarevista.html" class="dropdown-link">Secciones de la revista</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="../Catalogo.html" class="nav_link2">Catalogo</a>
+            </li>
+            <li class="nav_item">
+                <a href="../Convocatorias.html" class="nav_link3">Convocatorias</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link3 dropdown-toggle">
+                    Publicar<span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="../Bases.html" class="dropdown-link"> Bases</a></li>
+                </ul>
+                <ul class="dropdown">
+                    <li><a href="" class="dropdown-link"> Directrices para personas autoras</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="#" class="nav_link3">Donaciones</a>
+            </li>
+            <li class="nav_item redes-sociales-menu">
+                <a href="https://www.facebook.com/coaxolotl" target="_blank" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/axolotl_mx_/" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://x.com/co_axolotl" target="_blank" class="social-link">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+<section id="apartados">
+    <div class="content-wrapper">
+        <div class="main-content">
+            <div class="Acercade">
+            <H2>Archivos</H2>
+                <div class="archivos">
+                    <h2>Cine para la colmena</h2>
+                    <p class="num_p_art">
+                        Recientemente di con ésta escena que me impresionó justamente 
+                        por las razones por las que uno normalmente no se impresionaría: <br><br> 
+                        Un hombre visiblemente preocupado trabaja en su despacho; una 
+                        luz tenue apenas si ilumina el espacio, y él escribe el número 
+                        de las estaciones de radio en un cuaderno para luego tacharlos 
+                        al oír el sonido de la estática. Ninguna parece funcionar. Se 
+                        apresura hacia la ventana cuando  escucha llegar un coche. En 
+                        la completa oscuridad vislumbra a una mujer bajar y al acercarse 
+                        a la cerca del local de depósitos, llevarse un plato y dejar 
+                        otro con comida. Cuando se va ella, él baja, encuentra comida 
+                        en el plato que vuelca usando un palo para no tocarla. Se ha 
+                        quedado sin comida de todas formas y no encuentra otra opción 
+                        que abrir los almacenes alquilados para buscar algo de comer; 
+                        encuentra una bolsa de mermelada, un sobre de azúcar, una crema 
+                        para café y tres latas de comida para perro, devora las primeras 
+                        tres cosas y abre una de las latas sin animarse a dar el primer 
+                        bocado. Bien, para esto ya llevamos 8 minutos  de secuencia EN 
+                        COMPLETO SILENCIO, cuando, sin esperarlo, un teléfono suena, el 
+                        hombre contesta e insulta pidiendo que lo dejen en paz; llaman 
+                        una segunda vez -¡Qué me dejen en paz, hijueputas”-; a la tercera la voz 
+                        al otro lado lo insulta a él en un español tropezado. Confundido 
+                        va por el cuaderno de antes y escribe el nombre y el número de 
+                        su interlocutora. La serie Pluribus trata, a muy grandes rasgos, 
+                        sobre un virus de origen alienígena que hunde a la humanidad y 
+                        en la total felicidad, en la eficiencia, además en la completa 
+                        paz que supone vivir en una mega red que conecta a cada mente 
+                        individual en una colmena humana. En ese contexto sus protagonistas 
+                        son dos de los humanos inmunes que buscan a toda costa regresar a 
+                        la antigua normalidad. <br><br>
+
+                        Ahora bien, ¿Qué era lo que me impresionó de aquella secuencia? Pues que 
+en su totalidad fueron diez minutos sin apenas cortes que sugirieran saltos 
+de tiempo. ¿Y qué, si ya hay cantidades enormes de cine con escenas y secuencias largas? Y en sí eso es verdad, y más que la secuencia por sí sola la 
+cuestión importante es que ya había antecedentes dentro de la misma serie 
+y era la primera vez que me daba cuenta, evidentemente no con la misma 
+densidad de tiempo. De ahí en adelante la serie sólo es aún más firme en su 
+determinación de jugar con el tedio. No es tediosa, de ahí su valor real, el 
+tedio se convierte en comedia, en ansiedad, incluso en algo de carácter siniestro; los personajes entorpecen, se enredan, la colmena se repite en sus 
+acciones en su eterna fluctuación psicológica. Se crea una nueva cotidianeidad que hay que explorar para volver a caer en el tedio y luego explorar de 
+nuevo. Hace poco -y para terminar con este tema en pocas palabras- Matt 
+Damon (actor) habló acerca de una cláusula de Netflix que pedía, explícitamente, la reiteración prolongada de la trama a través de los diálogos, una 
+especie de radionovela construida a través de diálogos verborreicos e imposibles. La cuestión es simple; el cine como lugar y evento fue desplazado 
+por el streaming, a su vez el streaming se encuentra con el desafío de competir la atención de usuarios contra redes sociales, videos cortos, contenido 
+rápido en un juego de consumismo violento a la que nos han hecho adictos; 
+picos de dopamina y la sensación de búsqueda por algo que está siempre 
+a la mano y que por lo tanto queremos cada vez más rápido y masticado. <br><br>
+
+Esclavizados nos convierten en colmena que trabaja por intereses del mercado y a cambio recibimos…¿La “decisión” de no aburrirnos?... ¿Felicidad, acaso?
+<br><br>
+Ahora bien, ¿Qué era lo que me impresionó de aquella secuencia? Pues que 
+en su totalidad fueron diez minutos sin apenas cortes que sugirieran saltos 
+de tiempo. ¿Y qué, si ya hay cantidades enormes de cine con escenas y secuencias largas? Y en sí eso es verdad, y más que la secuencia por sí sola la 
+cuestión importante es que ya había antecedentes dentro de la misma serie 
+y era la primera vez que me daba cuenta, evidentemente no con la misma 
+densidad de tiempo. De ahí en adelante la serie sólo es aún más firme en su 
+determinación de jugar con el tedio. No es tediosa, de ahí su valor real, el 
+tedio se convierte en comedia, en ansiedad, incluso en algo de carácter siniestro; los personajes entorpecen, se enredan, la colmena se repite en sus 
+acciones en su eterna fluctuación psicológica. Se crea una nueva cotidianeidad que hay que explorar para volver a caer en el tedio y luego explorar de 
+nuevo. Hace poco -y para terminar con este tema en pocas palabras- Matt 
+Damon (actor) habló acerca de una cláusula de Netflix que pedía, explícitamente, la reiteración prolongada de la trama a través de los diálogos, una 
+especie de radionovela construida a través de diálogos verborreicos e imposibles. La cuestión es simple; el cine como lugar y evento fue desplazado 
+por el streaming, a su vez el streaming se encuentra con el desafío de competir la atención de usuarios contra redes sociales, videos cortos, contenido 
+rápido en un juego de consumismo violento a la que nos han hecho adictos; 
+picos de dopamina y la sensación de búsqueda por algo que está siempre 
+a la mano y que por lo tanto queremos cada vez más rápido y masticado. <br> <br>
+
+Esclavizados nos convierten en colmena que trabaja por intereses del mercado y a cambio recibimos…¿La “decisión” de no aburrirnos?... ¿Felicidad, acaso?
+                    </p>
+                </div>
+            </div>
+            <div class="Acercade">
+                <Img></Img>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <div class="Acercade">
+                    <button>Enviar un articulo</button>
+                    <!--<h3>Información</h3> 
+                    <a href="">Para lectores/as</a><br>
+                    <a href="">Para autores/as</a>-->
+                </div>
+
+                <div class="Acercade">
+                    <h2 id="NA">Números recientes</h2>
+                </div>
+                <div class="Acercade">
+                    <div class="Numerosrecientes">
+                        <img class="num_r" src="../Imagenes/portada_01.png" alt="Portadas_de_revistas" width="70%">
+                            <p>Núm. 01 "Comunicar para conocer la realidad"</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</section>
+        <section id="contacto">
+            <div class="carta">
+                <div class="container">
+                    <h2>Sitios de interés</h2>
+                </div>
+            </div>
+            <div class="carta">
+                <div class="container-redes-sociales">
+                </div>
+            </div>
+            <div class="carta">
+                <p>&copy;Revista Fosforo</p>
+            </div>
+</section> 
+    <script>
+        // Esperar a que termine la animación de las letras y luego mostrar el contenido
+        setTimeout(() => {
+            const loadingScreen = document.getElementById('loading-screen');
+            const mainContent = document.getElementById('main-content');
+            
+            // Ocultar pantalla de carga
+            loadingScreen.classList.add('fade-out');
+            
+            // Mostrar contenido principal
+            setTimeout(() => {
+                mainContent.classList.add('show');
+            }, 300);
+        }, 2500);
+
+        // Menú desplegable
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const menuItem = this.parentElement;
+                    const dropdown = menuItem.querySelector('.dropdown');
+                    
+                    // Toggle del dropdown
+                    menuItem.classList.toggle('active');
+                    dropdown.classList.toggle('active');
+                });
+            });
+
+            // Cerrar dropdown al hacer clic fuera
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.nav_item.has-dropdown')) {
+                    document.querySelectorAll('.nav_item.has-dropdown.active').forEach(item => {
+                        item.classList.remove('active');
+                        item.querySelector('.dropdown').classList.remove('active');
+                    });
+                }
+            });
+        });
+    </script>   
+</body>
+</html>

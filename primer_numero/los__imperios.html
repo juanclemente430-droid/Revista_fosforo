@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../paginaprincipalestilo.css">
+    <title>Revista FOSFORO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+     <header>  
+        <div class="container">
+            <figure class="nav_figure">
+            <a href="index.html" class="logo">
+                <img src="../Imagenes/Logo.png" alt="Revista FOSFORO" class="logo-img">
+            </a>
+            </figure>
+
+            <label class="nav_toggel">
+                <input type="checkbox" id="menu-input" class="nav_input">
+            </label>
+            <div class="iniciosesion">
+                <a href="{{ url_for('login') }}">
+                    <img src="../Imagenes/Sesion.svg" alt="Descripción de la imagen" width="130" class="iniciose">
+                </a>
+            </div>  
+        </div>
+        <ul class="nav_list">
+            <li class="nav_item">
+                <a href="../index.html" class="nav_link2">Inicio</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link1 dropdown-toggle">
+                    Acerca de la revista <span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="Enfoque.html" class="dropdown-link">Convocatoria permanente</a></li>
+                    <li><a href="Seccionesdelarevista.html" class="dropdown-link">Secciones de la revista</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="#" class="nav_link2">Catalogo</a>
+            </li>
+            <li class="nav_item">
+                <a href="#" class="nav_link3">Convocatorias</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link3 dropdown-toggle">
+                    Publicar<span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="Bases.html" class="dropdown-link"> Bases</a></li>
+                </ul>
+                <ul class="dropdown">
+                    <li><a href="" class="dropdown-link"> Directrices para personas autoras</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="#" class="nav_link3">Donaciones</a>
+            </li>
+            <li class="nav_item redes-sociales-menu">
+                <a href="https://www.facebook.com/coaxolotl" target="_blank" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/axolotl_mx_/" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://x.com/co_axolotl" target="_blank" class="social-link">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+<section id="apartados">
+    <div class="content-wrapper">
+        <div class="main-content">
+            <div class="Acercade">
+            <H2>Archivos</H2>
+                <div class="archivos">
+                    <h2>Los imperios de hoy en dia</h2>
+                     <p class="num_p_art">
+                        Cuando se habla de ‘Imperios’ suelen venir a la mente varios 
+ejemplos que apelan a la antigua noción de estos como el Imperio Romano, el Imperio Británico o el Español. Mega Estados, casi siempre con tintes monárquicos y monopólicos, con 
+extensiones territoriales pocas veces vistas que centralizan el poder 
+bajo un emperador, pero se considera también como algo ‘ya pasado’. <br><br>
+Los términos relacionados con el imperialismo, en cambio, siguen siendo 
+empleados cotidianamente; a veces a la ligereza, en muchas ocasiones en 
+discursos nacionalistas y en muchas otras de forma despectiva. No obstante uno puede preguntarse si es que, ¿en realidad siguen existiendo los 
+imperios? y si sí, ¿cómo son los imperios de nuestros días? Pero antes… </p>
+<h3>¿Cómo eran antes Imperios?</h3>
+<p class="num_p_art"> Anteriormente, los Imperios eran fácilmente identificables por su naturaleza ya mencionada, es decir, por su vasta extensión, la existencia de una autoridad monopólica y una gran influencia monárquica en 
+su organización de poderes. Esto se mantuvo casi sin cambios durante el siglo XVIII y XIX con la adhesión de las lógicas de colonia-metrópoli.
+Es decir, los imperios primero explotaban tierras directamente por medio 
+de la conquista y anexión de tierras. Más adelante con la llegada de los eropeos a América se comenzaron a delegar estas tareas a compañías coloniales, manteniendo siempre la supremacía de las Metrópolis sobre las 
+colonias. Así, aunque existieran Virreinatos en América o Colonias en Norteamérica, las capitales verdaderamente dominantes eran Madrid y Londres.
+Estas mismas dinámicas conquistadoras, empero, provocaron que este modelo imperialista se degradó con la Gran Guerra y la Segunda Guerra Mundial. <br> <br>
+A medida que se aproximaba el término de esta última, en 1944, se celebró la conferencia de Bretton Woods, donde se definió al esquema neoliberal global, se fundaron 
+instituciones económicas globales como el Banco Mundial y el Fondo Monetario Internacional (FMI) y, sobre todo, se fijó al dólar estadounidense como la moneda mundial. </p>
+<h3>Estados Unidos: un Imperio de Vanguardia </h3>
+<p class="num_p_art">Es casi poético que el principal ejemplo de imperialismo desde las Grandes Guerras del siglo XX, haya sido hasta finales del siglo XVIII una colonia del entonces Imperio más grande del Mundo. El Imperio Británico comenzó su vertiginosa expansión con las 13 Colonias de Norteamérica, y con ello se creó un 
+caldo de cultivo perfecto para la gestación de una sociedad expansionista. <br> <br>
+El Destino Manifiesto, la Supremacía blanca, el belicismo y el expansionismo “dictado 
+por Dios” heredados de Europa compusieron el ADN de Estados Unidos desde sus primeros brotes nacionalistas a finales de los 1700’s. Estos brotes comenzaron a florecer con 
+una fuerza cada vez mayor en los 1800’s, primero con una declaración de intenciones 
+en 1823 de James Monroe originando a la misma ‘Doctrina Monroe’, para luego expresarse por primera vez con la invasión estadounidense sobre México entre 1846 y 1848. <br><br>
+Entre el siglo XIX y el siglo XX se desarrolla la Primera Ola Imperialista estadounidense sobre América interviniendo a países sin anexionar a todos necesariamente. La Guerra Hispano-Estadounidense 
+de 1898 marcó el punto de partida casi al mismo tiempo las Guerras Bananeras, al mismo tiempo se intervinó varias veces en la política mexicana llegando a ocupar territorio mexicano constantemente —como 
+lo fue el Puerto de Veracruz— durante la Revolución Mexicana. <br> <br>
+Las intervenciones sobre Panamá de este periodo son un caso clave para el aparato imperialista de Estados Unidos, pues constituyó la creación del Canal de Panamá que facilitó el movimiento militar y comercial por mar de EEUU y fijó la 
+presencia estadounidense en el Caribe y Sudamérica. Hasta este punto, salvo las excepciones de Hawai’i y Filipinas, el intervencionismo de Estados Unidos se enfocó principalmente en América, cosa que cambiaría con las Grandes Guerras del siglo XX. <br> <br>
+En ambos escenarios internacionales Estados Unidos gozó de una posición privilegiada 
+que le permitió salir prácticamente ileso de ambos conflictos. Con esto, se abandonó la 
+Doctrina Monroe y se enfocaron en dominar rápidamente el esquema internacional, cosa 
+que ya había iniciado en 1944 con los ya mencionados tratados de Bretton Woods. También 
+se consagró como una hegemonía armada al disponer de una vastísima industria militar, 
+desarrollada desde el siglo pasado y coronada con el bombardeo nuclear de Japón en 1945. <br> <br></p>
+<h3>Dueño de Occidente</h3>
+<p class="num_p_art"> A partir de 1945, se comenzó a conformar el andamiaje de un sistema mundial a favor 
+de los intereses de Washington. Primero con la constitución de la Organización de 
+las Naciones Unidas (ONU), luego con el inicio de labores del Consejo de Seguridad de 
+la ONU en 1946, más adelante con la conformación de Agencia Central de Inteligencia 
+(CIA) en 1947, siendo este el mayor aparato de inteligencia del mundo, y finalmente en 
+1949 con la conformación de la mayor alianza militar de la historia, la Organización 
+del Tratado del Atlántico Norte (OTAN) para hacer frente al Bloque Soviético. <br> <br>
+En este punto, el imperialismo estadounidense entró en una fase de Imperio occidental legítimo. Prácticamente concentró la totalidad del monopolio de poder del sistema 
+internacional, principalmente de occidente, adoptando una narrativa de luchar contra 
+el comunismo y su “Imperio del Mal”. Con esto, las intervenciones, Guerras, sometimientos internacionales y demás acciones coercitivas por parte de Estados Unidos y 
+sus aliados sobre las periferias no sólo eran anunciadas, sino que eran justificadas.
+Esto se logró gracias, primero, a una dominación estadounidense de las corrientes culturales, económicas, políticas, ideológicas, comunicativas, etc. de 
+Occidente. Si durante el amplio periodo imperialismo europeo post Roma se 
+puede hablar de una Occidentalización —mal llamada también como Civilización— por medio de la imposición directa; en tiempos más actuales se podría hablar de un fenómeno 
+similar con sede en Washington: la Estadunización. <br><br>
+La Capital Económica está en Estados Unidos: las sedes del Banco Mundial y el FMI están en Washington DC, las sedes vertebrales de la ONU y la “capital del mundo” están 
+en Nueva York. La moneda internacional es el dólar y el inglés heredado del antiguo 
+Imperio dominante es la lengua internacional formal. EEUU también era central en la 
+Cultura Pop: el “Sueño Americano”, la “familia perfecta”, el “suburbio americano”, películas y series de televisión que embellecen la vida estadounidense, las “grandes 
+tendencias musicales” y, como no, los “valores americanos” comenzaron a regir a Occidente. <br><br>
+También se apropiaron del discurso, si Estados Unidos asesina civiles, está claramente “atacando enemigos en cubierto”; si incendia selvas y provoca los ecocidios 
+sin precedentes, está “despejando la zona de infraestructura enemiga”; si Estados Unidos “se ve forzado” a intervenir, está “liberando” a un país, y si impone dictaduras militares, 
+evidentemente está “democratizando”. Todo esto intentó normalizar una “Pax Americana” mientras glorificaban las guerras provocadas para estadunizar a países soberanos con pólvora y sangre. 
+Estados Unidos logró conformarse así en el dueño de Occidente. <br><br></p>
+<h3>Crisis de identidad</h3>
+<p class="num_p_art"> En 1991 cae la Unión Soviética, acaba la Guerra Fría e inicia la lenta y dolorosa fragmentación Yugoslava, en 1992 cae la República Democrática de Afganistán mientras que el bloqueo sobre Cuba 
+    se recrudece con las leyes de Torricelli (1992) y 
+Helms-Burton (1996). Ese mismo año Francis Fukuyama publicó “El fin de la historia y el último hombre” planteando que la lucha de ideologías ha terminado y ahora se abre paso ahora un proceso 
+de homogeneización global bajo el paraguas de la “libertad y la democracia” al estilo Occidental-estadounidense <br><br>
+No obstante, en 1999 se fundó la República Bolivariana de Venezuela con la llegada de Hugo Chávez al poder anunciando que la historia aún sigue. Pero en 2001 se 
+abriría ante Estados Unidos otra oportunidad para legitimar un “enemigo internacional” para imponerse con toda su fuerza en una nueva región: las Torres Gemelas 
+caen y se declara la Guerra contra el ‘Terrorismo’ desatando conflictos en todo Oriente Medio que quizá puedan recordar un poco a las Cruzadas de los siglos XI y XII. <br><br>
+De este modo se justificó una invasión en Afganistán (antiguo aliado frente a la 
+URSS) para desarticular Al-Qaeda e imponer un gobierno que sea leal a los intereses de EEUU, consecuentemente, por presuntos conexiones entre Al-Qaeda y Saddam Hussein, se intervino masivamente 
+sobre Irak en 2003. Al mismo tiempo la actividad occidental-estadounidense se disparó en toda la región. </p>
+<h3>El Imperio enfermo</h3>
+<p class="num_p_art"> La economía occidental estaba empezando a desgastarse, desde el 2001, entre la Guerra contra el ‘Terror’ y el 
+    estallido de una burbuja tecnológica, ya se percibía cierta inestabilidad económica que se agravaría notablemente en 2004 
+    cuando la inflación y una burbuja inmobiliaria en Estados Unidos crecían vertiginosamente. Finalmente la crisis económica estalló en 2008 y 
+    muchos países del mundo, especialmente en Europa y el propio EEUU, vieron graves consecuencias. <br><br>
+    Pero esto no frenó la codicia estadounidense. Poco antes de que acabara la Guerra en 
+Irak en 2011, en 2010 inició la Primavera Árabe, de la cuál también se aprovecharán. 
+En 2011 inicia la Guerra civil siria como resultado de esta primavera social y ya en 2012 
+habían soldados estadounidenses en territorio sirio y en 2014 inicia una intervención 
+occidental sobre el país liderada por EEUU. <br><br>
+Naturalmente, el aparato euro-estadounidense se sobrecargó en conflictos y 
+otras potencias comenzaron a emerger. Rusia comienza a presionar en Euro- pa Oriental e interviene en Ucrania en 2014 a la par que comienza una dispu- ta silenciosa por África entre China, Estados Unidos y Moscú. Además, la naval 
+china aumenta su presencia en el Mar de China a partir de 2010 y, desde 2022, 
+se hacen cada vez más constantes los ejercicios militares alrededor de Taiwán. <br><br>
+El mundo se ha embarcado en un proceso de multipolarización y Estados Unidos es 
+el Imperio enfermo de nuestra época. Y es que las constantes intervenciones de EEUU, 
+además de debilitar económicamente al país, degradaron la salud mental de cientos 
+de miles de personas, muchas de las cuales no logran mejorar y, si no se embarcan en 
+espirales de violencia, se sumergen en la dependencia de narcóticos como el Fentanilo. <br> <br>
+De forma similar que China en el siglo XIX, Estados Unidos comenzó a ver como 
+la vida dentro de sus fronteras era cada vez peor gracias a una grave crisis de fentanilo. Esta crisis, sin embargo, no es nada nueva, pues se basa en una 
+ruta comercial negra norteamericana entre México y Estados Unidos presente desde prácticamente la totalidad de la historia entre ambos países, ya que 
+EEUU desde prácticamente siempre ha sido el mercado negro por exelencia. <br> <br></p>
+<h3>El proceso de reorganización</h3>
+<p class="num_p_art"> En este contexto inició un proceso de reorganización del Imperio Estadounidense, contrayéndose y definiéndose nuevamente en América, abandonando las aspiraciones de 
+ser el “policía del globo” y regresando así a la Doctrina Monroe. De este modo, el Imperio Estadounidense se puede identificar con mayor claridad. Primero encontramos que 
+Norteamérica es la esfera de influencia directa de Estados Unidos, lo que se ha evidenciado con las amenazas de anexión sobre Canadá apelando a una integración económica; y sobre Groenlandia, 
+justificándose en razones estratégicas frente a Rusia en el Polo Norte estadounidense, y ya no necesariamente en el de la OTAN y Occidente en sí. <br><br>
+Asimismo, Israel termina de establecerse dentro de la política estadounidense en 
+Oriente Medio como un poder fáctico de primer orden, conformando un tipo de 
+Eje Washington-Tel Aviv en la región que ha provocado nuevas guerras y conflictos unilaterales entre EEUU e Israel contra, por ejemplo, Irán y su alianza regional. <br><br>
+Esta nueva doctrina geopolítica implementada en la administración estadounidense en curso desvela dos nuevas realidades del Orden Mundial, si es que queda alguno: el Imperio Estadounidense 
+se concentra en América y en los intereses netamente estadounidenses, incluso si esto significa agredir a sus aliados 
+tradicionales. Y consecuentemente en segundo lugar, Estados Unidos renuncia a ser 
+un Imperio Occidental para concentrarse en ser un Imperio únicamente Americano. <br><br>
+En este panorama México es tratado prácticamente como un Estado frontera vasallo entre 
+el Norte y el Sur Global en materia de migración; además al igual que con Canadá, la nueva administración estadounidense está comenzando a usar a las relaciones comerciales 
+como medios de coerción. Sólo que en este caso no es para integrar directamente a México, sino que se emplea como un medio para forzarlo a actuar en favor de la Casa Blanca. <br><br>
+Además, la Guerra contra el “Terrorismo” evolucionó hacia una Guerra contra el Narco“terrorismo”. De igual forma que se empleó el discurso de “terorrismo” para justificar 
+Guerras, masacres el genocidio gazatí en Oriente Medio, Estados Unidos ahora habla 
+de “narco-terrorisatas” para legitimar un belicismo renovado sobre América Latina.
+La intervención en Venezuela para secuestrar a Nicolás Maduro, las escaladas con Colombia y los ataques en rutas marítimas colombianas, mexicanas y venezolanas, así 
+como el sitio militar del Caribe son prueba de ello. Otros ejemplos de ello son también las 
+intromisiones en las elecciones de Argentina, Honduras, Chile, Paraguay, Bolivia y Perú.
+<h3>¿Entonces?</h3>
+<p class="num_p_art"> Aunque será la historia en un futuro la que defina con mayor precisión nuestro presente, 
+y si es que aún se puede hablar de imperios en esta época, seguramente Estados Unidos 
+sea el caso más sobresaliente del tema. El modelo perfecto para demostrar que los Imperios ya no son explícitos, sino que ahora utilizan la estructura neoliberal para intimidar, 
+coaccionar e integrar forzosamente a regiones completas a los intereses de la metrópoli. <br><br>
+Un Estado que primero se adueña de la forma de pensar y ver al mundo de tal forma que 
+sin tener que expandir constantemente sus fronteras, al menos desde la Segunda Guerra 
+Mundial, se logró imponer en todo Occidente y dictó su rumbo por, quizá, un siglo. Con 
+una firma inundó al mundo poco a poco con su moneda que, desde 1971, es cada vez más 
+especulativa y virtual que algo real. Un Imperio que por décadas forzó la expansión de 
+Occidente para su beneficio; pero que hoy abandona para aprovecharse de su debilidad. <br><br>
+                     </p>
+                </div>
+            </div>
+            <div class="Acercade">
+                <Img></Img>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <div class="Acercade">
+                    <button>Enviar un articulo</button>
+                    <!--<h3>Información</h3> 
+                    <a href="">Para lectores/as</a><br>
+                    <a href="">Para autores/as</a>-->
+                </div>
+
+                <div class="Acercade">
+                    <h2 id="NA">Números recientes</h2>
+                </div>
+                <div class="Acercade">
+                    <div class="Numerosrecientes">
+                        <img class="num_r" src="../Imagenes/portada_01.png" alt="Portadas_de_revistas" width="70%">
+                            <p>Núm. 01 "Comunicar para conocer la realidad"</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</section>
+        <section id="contacto">
+            <div class="carta">
+                <div class="container">
+                    <h2>Sitios de interés</h2>
+                </div>
+            </div>
+            <div class="carta">
+                <div class="container-redes-sociales">
+                </div>
+            </div>
+            <div class="carta">
+                <p>&copy;Revista Fosforo</p>
+            </div>
+</section> 
+    <script>
+        // Esperar a que termine la animación de las letras y luego mostrar el contenido
+        setTimeout(() => {
+            const loadingScreen = document.getElementById('loading-screen');
+            const mainContent = document.getElementById('main-content');
+            
+            // Ocultar pantalla de carga
+            loadingScreen.classList.add('fade-out');
+            
+            // Mostrar contenido principal
+            setTimeout(() => {
+                mainContent.classList.add('show');
+            }, 300);
+        }, 2500);
+
+        // Menú desplegable
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const menuItem = this.parentElement;
+                    const dropdown = menuItem.querySelector('.dropdown');
+                    
+                    // Toggle del dropdown
+                    menuItem.classList.toggle('active');
+                    dropdown.classList.toggle('active');
+                });
+            });
+
+            // Cerrar dropdown al hacer clic fuera
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.nav_item.has-dropdown')) {
+                    document.querySelectorAll('.nav_item.has-dropdown.active').forEach(item => {
+                        item.classList.remove('active');
+                        item.querySelector('.dropdown').classList.remove('active');
+                    });
+                }
+            });
+        });
+    </script>   
+</body>
+</html>

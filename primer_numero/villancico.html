@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../paginaprincipalestilo.css">
+    <title>Revista FOSFORO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+     <header>  
+        <div class="container">
+            <figure class="nav_figure">
+            <a href="index.html" class="logo">
+                <img src="../Imagenes/Logo.png" alt="Revista FOSFORO" class="logo-img">
+            </a>
+            </figure>
+
+            <label class="nav_toggel">
+                <input type="checkbox" id="menu-input" class="nav_input">
+            </label>
+            <div class="iniciosesion">
+                <a href="{{ url_for('login') }}">
+                    <img src="../Imagenes/Sesion.svg" alt="Descripción de la imagen" width="130" class="iniciose">
+                </a>
+            </div>  
+        </div>
+        <ul class="nav_list">
+            <li class="nav_item">
+                <a href="../index.html" class="nav_link2">Inicio</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link1 dropdown-toggle">
+                    Acerca de la revista <span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="../Enfoque.html" class="dropdown-link">Convocatoria permanente</a></li>
+                    <li><a href="../Seccionesdelarevista.html" class="dropdown-link">Secciones de la revista</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="../Catalogo.html" class="nav_link2">Catalogo</a>
+            </li>
+            <li class="nav_item">
+                <a href="../Convocatorias.html" class="nav_link3">Convocatorias</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link3 dropdown-toggle">
+                    Publicar<span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="../Bases.html" class="dropdown-link"> Bases</a></li>
+                </ul>
+                <ul class="dropdown">
+                    <li><a href="" class="dropdown-link"> Directrices para personas autoras</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="#" class="nav_link3">Donaciones</a>
+            </li>
+            <li class="nav_item redes-sociales-menu">
+                <a href="https://www.facebook.com/coaxolotl" target="_blank" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/axolotl_mx_/" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://x.com/co_axolotl" target="_blank" class="social-link">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+<section id="apartados">
+    <div class="content-wrapper">
+        <div class="main-content">
+            <div class="Acercade">
+            <H2>Archivos</H2>
+                <div class="archivos">
+                    <h2>Redes sociales: la palabra como poder político</h2>
+                     <p class="num_p_art">
+Texto inspirado en la Navidad y la película Feliz navidad de Christian Carion.
+Para cuando salga esto, Navidad tendrá de pasada unos dos o tres meses, pero la guerra, 
+lastimosamente seguirá presente. No busco teorizar sobre el imperio o el gonocidio, 
+<b>busco narrar un villancico. </b> <br><br>
+La Navidad es un festejo donde se bebe vino y se canta un villancico conmemorando a 
+Jesucristo, es el momento para comer, reír, llorar, recordar y amar al prójimo como a uno 
+mismo. La guerra, es lo antagónico, no ames al prójimo como a ti mismo, quitale el pan, 
+hazlo llorar, es el momento para odiar, se conmemora a cada momento el acto de matar, es 
+el constante bombardear, el constante llorar de una madre a la incertidumbre de perder al 
+hijo. <b>En una se festeja la vida del hijo y en la otra la muerte del mismo.</b> <br><br>
+Un general manda a atacar mientras habla de patria y libertad, el otro pregunta si ya 
+llegaron los refuerzos o quizá lo nuevos muertos, el otro espera el momento para el ataque, 
+son tres bandos, tres trincheras que esperan la orden, soldados con la espada o el arma 
+desenfundada. Un padre y un artista son los que rompen la hostilidad de la guerra provocada 
+por el sistema capitalista, uno canta y el otro salva, uno es un soldado martirizado, el
+otro un padre que busca salvar vidas con esa cruz roja, cruz que llevaban los templarios 
+en cruzadas, <b>recuerdo de que la guerra no solo es del capital, también se presentó en el 
+mundo medieval, es esencia imperial.</b> <br> <br>
+En ambos sistemas se presenta el fenómeno, en ambos sistemas se presenta el hombre queriendo 
+dominar al otro, un dominio que se legitima con la cosificación del otro, el otro se encasilla 
+a maldad, mientras los míos se encasillan en bondad, en toda guerra se presenta el amigo-enemigo 
+de Schmitt, en toda guerra se cosifica al otro en Alemán, en Inglés, en Francés, en etc. 
+Pero olvidan que el otro es humanidad, que el otro es hijo y padre, que <b>el otro es semejante.</b> 
+La guerra se da con la negación del otro como un ser vivo con derecho a la vida, la guerra se 
+da con la deshumanización, se da con la pérdida de comunión, <b>con la pérdida de fraternidad, 
+on la pérdida de amor al otro.</b> <br><br>
+Recuerdo al personaje Nikolaus Sprink <sup>1</sup> el cual le dice a su prometida “Tengo que volver al 
+frente a cantar para mis camaradas, debo de ir”. Niko rompe con la guerra, presenta un <b>sentido 
+del deber, de pertenencia, de comunidad, de amor al otro</b>, al prójimo con el que vivo y sufro, 
+el prójimo para Nikolaus eran sus compañeros soldados con los quien sufría a diario y se veía 
+reflejado. <br><br>
+Sentido de identidad no basado en una Nación, sino basada en un sentir provocado por su 
+constante vivir en la trinchera, el britanico y el francés también son su prójimo porque en él 
+también se ve reflejado. Es así como decide seguir cantando en medio de tres bandos más cercanos 
+que lejanos,<b>es un recuerdo de que el hombre no debe ser el estereotipo de macho dominante, 
+sino de humano amente</b>. Es así como decide compartir su voz con los que sufren el miedo como él 
+mismo, no un canto que ensalza la nacionalidad, sino un canto que viene de la fragilidad, del 
+reconocer su vulnerabilidad, canto que es escuchado por los otros bandos que se sienten 
+identificados, la guerra se ve atacada no por un arma, sino por un cantar desde el alma, dando 
+la Tregua de Navidad de 1914. <br><br>
+Bien dice Residente <b>“la guerra pierde la lucha cuando los enemigos escuchan, la guerra es más 
+débil que fuerte, no aguanta la vida por eso se esconde en la muerte”</b> y en esa Navidad de 1914 
+los bandos escucharon noche de paz. <br><br>
+La Navidad fue y será el recuerdo del amor en un ambiente de deshumanización brutal, ¿Porque? 
+a Navidad nos hace recordar la fraternidad, es ese acto de reunión familiar, del núcleo social 
+principal donde se construye el tejido social, por eso la navidad logra acabar con la guerra, 
+<b>es un recuerdo de que somos seres sociales, que estamos para convivir y compartir, no para 
+competir y oprimir, la Navidad logra parar con la guerra por que construye tejido social, 
+construye comunidad basada en la fraternidad, en el amor no de la humanidad, sino al amor de 
+ver nacida la vida, la navidad es vida y la guerra, no aguanta la vida.</b> <br><br>
+    _________________________________________________________________________<br><br>
+<sup>1</sup>Personaje de la película Feliz navidad de Christian Carion 
+
+
+                    </p>
+                </div>
+            </div>
+            <div class="Acercade">
+                <Img></Img>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <div class="Acercade">
+                    <button>Enviar un articulo</button>
+                    <!--<h3>Información</h3> 
+                    <a href="">Para lectores/as</a><br>
+                    <a href="">Para autores/as</a>-->
+                </div>
+
+                <div class="Acercade">
+                    <h2 id="NA">Números recientes</h2>
+                </div>
+                <div class="Acercade">
+                    <div class="Numerosrecientes">
+                        <img class="num_r" src="../Imagenes/portada_01.png" alt="Portadas_de_revistas" width="70%">
+                            <p>Núm. 01 "Comunicar para conocer la realidad"</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</section>
+        <section id="contacto">
+            <div class="carta">
+                <div class="container">
+                    <h2>Sitios de interés</h2>
+                </div>
+            </div>
+            <div class="carta">
+                <div class="container-redes-sociales">
+                </div>
+            </div>
+            <div class="carta">
+                <p>&copy;Revista Fosforo</p>
+            </div>
+</section> 
+    <script>
+        // Esperar a que termine la animación de las letras y luego mostrar el contenido
+        setTimeout(() => {
+            const loadingScreen = document.getElementById('loading-screen');
+            const mainContent = document.getElementById('main-content');
+            
+            // Ocultar pantalla de carga
+            loadingScreen.classList.add('fade-out');
+            
+            // Mostrar contenido principal
+            setTimeout(() => {
+                mainContent.classList.add('show');
+            }, 300);
+        }, 2500);
+
+        // Menú desplegable
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const menuItem = this.parentElement;
+                    const dropdown = menuItem.querySelector('.dropdown');
+                    
+                    // Toggle del dropdown
+                    menuItem.classList.toggle('active');
+                    dropdown.classList.toggle('active');
+                });
+            });
+
+            // Cerrar dropdown al hacer clic fuera
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.nav_item.has-dropdown')) {
+                    document.querySelectorAll('.nav_item.has-dropdown.active').forEach(item => {
+                        item.classList.remove('active');
+                        item.querySelector('.dropdown').classList.remove('active');
+                    });
+                }
+            });
+        });
+    </script>   
+</body>
+</html>

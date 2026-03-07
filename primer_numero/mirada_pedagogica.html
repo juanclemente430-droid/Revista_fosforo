@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../paginaprincipalestilo.css">
+    <title>Revista FOSFORO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+     <header>  
+        <div class="container">
+            <figure class="nav_figure">
+            <a href="index.html" class="logo">
+                <img src="../Imagenes/Logo.png" alt="Revista FOSFORO" class="logo-img">
+            </a>
+            </figure>
+
+            <label class="nav_toggel">
+                <input type="checkbox" id="menu-input" class="nav_input">
+            </label>
+            <div class="iniciosesion">
+                <a href="{{ url_for('login') }}">
+                    <img src="../Imagenes/Sesion.svg" alt="Descripción de la imagen" width="130" class="iniciose">
+                </a>
+            </div>  
+        </div>
+        <ul class="nav_list">
+            <li class="nav_item">
+                <a href="../index.html" class="nav_link2">Inicio</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link1 dropdown-toggle">
+                    Acerca de la revista <span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="../Enfoque.html" class="dropdown-link">Convocatoria permanente</a></li>
+                    <li><a href="../Seccionesdelarevista.html" class="dropdown-link">Secciones de la revista</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="../Catalogo.html" class="nav_link2">Catalogo</a>
+            </li>
+            <li class="nav_item">
+                <a href="../Convocatorias.html" class="nav_link3">Convocatorias</a>
+            </li>
+            <li class="nav_item has-dropdown">
+                <a href="#" class="nav_link3 dropdown-toggle">
+                    Publicar<span class="arrow">▼</span>
+                </a>
+                <ul class="dropdown">
+                    <li><a href="../Bases.html" class="dropdown-link"> Bases</a></li>
+                </ul>
+                <ul class="dropdown">
+                    <li><a href="" class="dropdown-link"> Directrices para personas autoras</a></li>
+                </ul>
+            </li>
+            <li class="nav_item">
+                <a href="#" class="nav_link3">Donaciones</a>
+            </li>
+            <li class="nav_item redes-sociales-menu">
+                <a href="https://www.facebook.com/coaxolotl" target="_blank" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/axolotl_mx_/" target="_blank" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://x.com/co_axolotl" target="_blank" class="social-link">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+<section id="apartados">
+    <div class="content-wrapper">
+        <div class="main-content">
+            <div class="Acercade">
+            <H2>Archivos</H2>
+                <div class="archivos">
+                    <h2>Una mirada pedagógica de los movimientos estudiantiles. Huelga de 1999.</h2>
+                     <p class="num_p_art">
+A lo largo del estudio y análisis de los movimientos estudiantiles han existido diversos cortes 
+de investigación, entre los cuales predominan el político, histórico y social. Sin embargo, al 
+tratarse de un momento en donde convergen sujetos y actores educativos que hacen uso de un 
+espacio escolar con objetivos políticos específicos, intervienen procesos y prácticas educativas
+ encaminadas a una finalidad en concreto. Por ello, es de suma importancia incorporar una mirada 
+ pedagógica al estudio de estos movimientos. <br><br>
+A continuación, se presentan algunos horizontes de posibilidad que permiten pensar y comprender 
+de manera más concreta la necesidad del tejido analítico pedagógico de los movimientos 
+estudiantiles. <br><br>
+Primeramente, en tanto sujetos y actores educativos que se desenvuelven cotidianamente en un 
+espacio destinado a la educación, es algo que le compete a la pedagogía, entendiendo a la 
+educación como su objeto de estudio. <br><br>
+En segundo lugar, el uso del espacio educativo de forma distinta a la que tradicionalmente se 
+usa e inicialmente fue creado,  provoca el repensar de la definición, uso y  finalidad de un 
+espacio escolar. <br><br>
+Por último, se pone en juego la concepción, entendimiento y posición educativa en el mundo de 
+tres actores educativos; el estudiante, el docente y la sociedad en cuestión. Al primero, 
+tradicionalmente se le vislumbra como un sujeto pasivo, receptor de aprendizajes y acomodado al 
+engranaje de la estructura académica, sin embargo, esto se quiebra cuando comienza a 
+articularse una organización estudiantil, pues el estudiante redefine su papel dentro de la 
+nstitución llamada escuela. Transita de la pasividad al actuar de intereses colectivos. Toma 
+en sus manos el rumbo de su actuar y quehacer estudiantil. Los conocimientos teóricos pasan a 
+egundo plano y la praxis toma protagonismo para alcanzar una meta. El segundo actor educativo, 
+l docente, pasa de ser una figura de autoridad frente a un grupo en un salón de clases y se 
+convierte en aliado u opositor de la causa. En algunos casos funge como guía epistémica o 
+teórico-metodológica para los estudiantes, sin embargo, en el marco del movimiento se desdibuja 
+su rol inicial determinado para el espacio que atraviesa. El tercer actor vuelve difuso su 
+ctuar ante el acontecer de lo educativo. Al ser tan plurales los senti-pensares de la sociedad, 
+los sujetos que la conforman se posicionan de formas diversas y la concepción social de los 
+dos actores anteriormente mencionados se diversifica. <br><br>
+Por lo anterior mencionado, se justifica la importancia y relevancia de miradas pedagógicas 
+en los movimientos estudiantiles. <br><br>
+Ahora bien, el desarrollo e inicio de este nuevo tejido de discusión pedagógica se ejemplifica 
+a continuación con un movimiento estudiantil a finales del siglo pasado en la historia de 
+la Universidad Nacional Autónoma de México (UNAM), el cual se vislumbra a la distancia como 
+un  intento de privatización de la máxima casa de estudios. <br><br>
+En 1999, hace 25 años, ocurrió la huelga estudiantil más larga de la historia de la UNAM. 
+Francisco Barnés de Castro, el rector en turno, propuso ante el Consejo Universitario una 
+serie de cuotas obligatorias para estudiantes, las cuales fueron aprobadas un mes antes de 
+que estallara una huelga estudiantil. Dicha huelga tenía el objetivo principal de impedir 
+el incremento de cuotas estudiantiles, ya que se concebía como un intento de iniciar la 
+privatización de la educación superior. <br><br>
+Como primeras interrogantes surgen: ¿cómo llegaron los estudiantes a la conclusión de que 
+se trataba del inicio de la privatización de la universidad?¿qué herramientas conceptuales 
+les permitieron entender la realidad de esa manera?¿Cómo y de dónde obtuvieron las herramientas 
+teóricas para analizar la realidad? ¿Cómo y dónde obtuvieron las herramientas metodológicas 
+para iniciar una organización y movimiento estudiantil? Si hay respuestas a las anteriores 
+preguntas ¿tienen relación con los planes y programas de estudio que reflejan la misión y 
+visión de la universidad? <br><br>
+Por otro lado, debido a la cantidad de personas que participaban en el movimiento se creo 
+el Consejo General de Huelga, con el objetivo de organizar y clarificar las ideas y metas 
+dentro del movimiento y frente a las autoridades universitarias. Ante esta acción surgen 
+las preguntas: ¿Cómo llegaron a esa conclusión organizativa?¿alguien les enseñó, lo vieron o 
+leyeron en algún lugar?¿A través de qué medios lograron comunicar con otras escuelas y 
+facultades sus intenciones y entendimiento del mundo? <br><br>
+Ahora bien, dicha huelga tuvo lugar en las inmediaciones de la UNAM, se hizo uso de las 
+instalaciones durante 9 meses ¿cómo fue la organización cotidiana? ¿Habían tenido experiencias 
+previas? Si fue así ¿Los conocimientos teóricos y metodológicos les significaron algo para el 
+desarrollo del movimiento? ¿Aprendieron algo en todo ese tiempo? Si fue así ¿qué aprendieron, 
+y cuáles y cómo fueron los procesos de enseñanza y aprendizaje? <br><br>
+Como última interrogante está: ¿la experiencia dentro del movimiento estudiantil les significó 
+de algún modo o tuvo trascendencia en la vida y educación de quienes participaron? <br><br>
+Lo que permite el análisis pedagógico es ir más allá del análisis político. Permite reconocer 
+a los sujetos que dieron vida  al movimiento y entender profundamente el inicio, desarrollo y 
+desenlace de los mismos. Pues al reconocer y nombrar sus procesos educativos se reconoce la 
+pluralidad y complejidad de un movimiento y su articulación organizativa. <br><br>
+Finalmente, incorporar una mirada pedagógica  permitirá repensar el papel y lugar de la 
+universidad desde el ámbito educativo, así como su relación con la sociedad. <br><br>
+_________________________________________________________________________ 
+<sup>1</sup>Juan Ortiz, “La Huelga de 1999: a 24 años del paro más largo de la UNAM” en La silla rota 
+ (2023),https://lasillarota.com/nacion/2023/4/17/la-huelga-de-1999-24-anos-del-paro-mas-largo-
+ de-la-unam-276255.html 
+</p>
+<h3>Fuentes de consulta:</h3>
+    <ul class="num_p_art">
+        <li>Dip Nicolás, “La huella del ‘99 en la UNAM: moraliza la política al extremo y te 
+            quedarás solo.” en Instituto de Investigaciones Sociales, (2020), 
+            https://www.iis.unam.mx/blog/la-huelga-del-99-en-la-unam-moraliza-la-politica-al-
+            extremo-y-te-quedaras-solo/</li>
+        <li>Ortiz Juan, “La Huelga de 1999: a 24 años del paro más largo de la UNAM” en La silla 
+            rota (2023), https://lasillarota.com/nacion/2023/4/17/la-huelga-de-1999-24-anos-del-
+            paro-mas-largo-de-la-unam-276255.html </li>
+        <li>Tejiendo Organización Revolucionaria, El Torito, no. 6 (2019), https://tejiendorevo
+            lucion.org/wp-content/uploads/2024/01/6-Huelga-y-rebelion-estudiantil.pdf</li>
+    </ul>
+                </div>
+            </div>
+            <div class="Acercade">
+                <Img></Img>
+            </div>
+        </div>
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <div class="Acercade">
+                    <button>Enviar un articulo</button>
+                    <!--<h3>Información</h3> 
+                    <a href="">Para lectores/as</a><br>
+                    <a href="">Para autores/as</a>-->
+                </div>
+
+                <div class="Acercade">
+                    <h2 id="NA">Números recientes</h2>
+                </div>
+                <div class="Acercade">
+                    <div class="Numerosrecientes">
+                        <img class="num_r" src="../Imagenes/portada_01.png" alt="Portadas_de_revistas" width="70%">
+                            <p>Núm. 01 "Comunicar para conocer la realidad"</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</section>
+        <section id="contacto">
+            <div class="carta">
+                <div class="container">
+                    <h2>Sitios de interés</h2>
+                </div>
+            </div>
+            <div class="carta">
+                <div class="container-redes-sociales">
+                </div>
+            </div>
+            <div class="carta">
+                <p>&copy;Revista Fosforo</p>
+            </div>
+</section> 
+    <script>
+        // Esperar a que termine la animación de las letras y luego mostrar el contenido
+        setTimeout(() => {
+            const loadingScreen = document.getElementById('loading-screen');
+            const mainContent = document.getElementById('main-content');
+            
+            // Ocultar pantalla de carga
+            loadingScreen.classList.add('fade-out');
+            
+            // Mostrar contenido principal
+            setTimeout(() => {
+                mainContent.classList.add('show');
+            }, 300);
+        }, 2500);
+
+        // Menú desplegable
+        document.addEventListener('DOMContentLoaded', function() {
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const menuItem = this.parentElement;
+                    const dropdown = menuItem.querySelector('.dropdown');
+                    
+                    // Toggle del dropdown
+                    menuItem.classList.toggle('active');
+                    dropdown.classList.toggle('active');
+                });
+            });
+
+            // Cerrar dropdown al hacer clic fuera
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('.nav_item.has-dropdown')) {
+                    document.querySelectorAll('.nav_item.has-dropdown.active').forEach(item => {
+                        item.classList.remove('active');
+                        item.querySelector('.dropdown').classList.remove('active');
+                    });
+                }
+            });
+        });
+    </script>   
+</body>
+</html>
