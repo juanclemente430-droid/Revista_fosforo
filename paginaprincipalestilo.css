@@ -522,8 +522,8 @@ header .container:has(.nav_input:checked){
     margin-bottom: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     font-family: 'Times New Roman', Times, serif;
 }
 #apartados .AcercadeUl{
@@ -669,6 +669,11 @@ header .container:has(.nav_input:checked){
     border-top-style:solid;
     border-bottom-style:solid;
     border-color:#e2e6ee;
+        margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left-style: none; /* quita el borde izquierdo en móvil */
 
 }
 .portadas_numeros{
@@ -1161,6 +1166,15 @@ header .container:has(.nav_input:checked){
     width: 100%;
 }
 /*Archivos*/
+#apartados .Acercade{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 .archivos{
     border: 1px;
