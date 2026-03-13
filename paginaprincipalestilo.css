@@ -703,6 +703,11 @@ header .container:has(.nav_input:checked){
     margin-bottom: 5px;
     background-color: #fff;
 }
+
+#num_b:active{
+    background-color:#6b7280;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.2);
+}
 .num_n_a{
     font-weight: bold;
     color:rgb(45, 100, 172);
