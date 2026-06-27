@@ -73,15 +73,30 @@ p{
 }
 
 
-.slide-1 {
+.slide-2 {
     background-color: white;
 }
-.slide-2 {
-    background-image: url(./Imagenes/Convocatoria1.png);
-    background-size: cover; /* Asegurar que cubra todo */
-    background-position: center center; /* Centrar la imagen */
+.slide-1 {
+    background-image: url(./Imagenes/Venezuela.jpeg);
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
-    width: 100%;
+}
+
+/* Ocultamos el flag-bg en móvil */
+.slide-1 .flag-bg {
+    display: none;
+}
+
+/* Ocultamos el cartel-img en móvil (ya no hace falta) */
+.slide-1 .cartel-img {
+    display: none;
+}
+
+.slide-1 .slide-content a {
+    position: absolute;
+    inset: 0;
+    display: block;
 }
 .arrow2 {
     position: absolute;
@@ -1162,13 +1177,29 @@ header .container:has(.nav_input:checked){
     }
 
 
-.slide-2 {
-    background-image: url(./Imagenes/Convocatoria1.png);
-    background-size: contain; /* Mostrar imagen completa */
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: white; /* Fondo negro para las áreas vacías */
-    width: 100%;
+    /* Quitamos el fondo directo en desktop */
+    .slide-1 {
+        background-image: url(Imagenes/bandera_venezuela.png);
+    }
+
+    /* Mostramos el flag-bg de nuevo en desktop */
+    .slide-1 .flag-bg {
+        display: block;
+    }
+
+    /* Mostramos el cartel-img en desktop */
+    .slide-1 .cartel-img {
+        display: block;
+        max-height: 360px;
+        object-fit: contain;
+    }
+
+    /* Restauramos el link a su estado normal */
+    .slide-1 .slide-content a {
+        position: relative;
+        inset: unset;
+        display: inline-block;
+    }
 }
 /*Archivos*/
 #apartados .Acercade{
