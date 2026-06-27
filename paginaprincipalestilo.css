@@ -79,7 +79,7 @@ p{
 .slide-1 {
     background-image: url(./Imagenes/Venezuela.jpeg);
     background-size: cover;
-    background-position: center center;
+    background-position: center top;
     background-repeat: no-repeat;
 }
 
@@ -1180,6 +1180,7 @@ header .container:has(.nav_input:checked){
     /* Quitamos el fondo directo en desktop */
     .slide-1 {
         background-image: url(Imagenes/bandera_venezuela.png);
+        background-position: center center;
     }
 
     /* Mostramos el flag-bg de nuevo en desktop */
